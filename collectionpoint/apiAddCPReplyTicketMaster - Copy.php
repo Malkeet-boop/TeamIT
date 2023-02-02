@@ -13,6 +13,14 @@ $reply_attachment=$_POST["reply_attachment"];
 date_default_timezone_set("Asia/Kolkata");
 $date=date("d-m-Y h:i:sa");
 $user=$_SESSION["cp_id"];
+$reply_by="COLLECTIONPOINT";	
+date_default_timezone_set("Asia/Kolkata");
+$date=date("d-m-Y h:i:sa");
+$user=$_SESSION["cp_id"];
+$reply_by="COLLECTIONPOINT";	
+date_default_timezone_set("Asia/Kolkata");
+$date=date("d-m-Y h:i:sa");
+$user=$_SESSION["cp_id"];
 $reply_by="COLLECTIONPOINT";
 	
 $retVal=$sign->FunctionJson("select id from tw_collection_point_master where mobile_number = '".$user."'");
